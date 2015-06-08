@@ -4,6 +4,7 @@ public class Employee extends Person {
 	
 	public double salary;
 	public String dressCode;
+	public Manager manager;
 
 	//constructor
 	public Employee(String firstName, String lastName) {
